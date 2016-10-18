@@ -1,0 +1,1 @@
+Statement : On a map, I have to find the distance between A and B
