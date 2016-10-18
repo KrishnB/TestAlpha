@@ -1,0 +1,1 @@
+Statement : A Company with employees working in different departments have to be allocated with laptop types based on the department
