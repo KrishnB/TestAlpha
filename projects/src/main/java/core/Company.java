@@ -41,19 +41,25 @@ public class Company {
 
     public void addEmployee(Employee employee)
     {
-
+        employeeList.add(employee);
     }
 
     public void displayEmployee(Employee employee)
     {
-
+        System.out.println(employee.getEmpName());
     }
     public void displayAllEmployees()
     {
-
+        for (Employee employee : employeeList) {
+            System.out.println(employee.getEmpName());
+        }
     }
     public void issueLaptop(Employee employee,Laptop laptop)
     {
-
+        employee.setEmpLaptop(laptop);
+    }
+    public void setDepartment(Employee employee, Department department)
+    {
+        employee.setEmpDepartment(department);
     }
 }

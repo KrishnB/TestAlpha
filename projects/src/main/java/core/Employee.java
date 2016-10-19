@@ -1,5 +1,7 @@
 package core;
 
+import java.util.List;
+
 /**
  * Created by tvserver on 19/10/16.
  */
@@ -8,8 +10,8 @@ public class Employee {
     String empId;
     String empName;
     String empDesignation;
-    Department department;
-    Laptop laptop;
+    Department empDepartment;
+    Laptop empLaptop;
 
     public Employee(String id,String name, String desig)
     {
@@ -42,4 +44,21 @@ public class Employee {
         this.empDesignation = empDesignation;
     }
 
+    public Laptop getEmpLaptop()
+    {
+        return empLaptop;
+    }
+
+    public void setEmpLaptop(Laptop empLaptop)
+    {
+        this.empLaptop = empLaptop;
+    }
+
+    public Department getEmpDepartment() {
+        return empDepartment;
+    }
+
+    public void setEmpDepartment(Department empDepartment) {
+        this.empDepartment = empDepartment;
+    }
 }
