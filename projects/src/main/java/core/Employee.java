@@ -9,15 +9,15 @@ public class Employee {
 
     String empId;
     String empName;
-    String empDesignation;
     Department empDepartment;
     Laptop empLaptop;
+    Designation designation;
 
-    public Employee(String id,String name, String desig)
+    public Employee(String id,String name, Designation desig)
     {
         this.empId = id;
         this.empName = name;
-        this.empDesignation = desig;
+        this.designation = desig;
     }
 
     public String getEmpId() {
@@ -36,14 +36,6 @@ public class Employee {
         this.empName = empName;
     }
 
-    public String getEmpDesignation() {
-        return empDesignation;
-    }
-
-    public void setEmpDesignation(String empDesignation) {
-        this.empDesignation = empDesignation;
-    }
-
     public Laptop getEmpLaptop()
     {
         return empLaptop;
@@ -60,5 +52,13 @@ public class Employee {
 
     public void setEmpDepartment(Department empDepartment) {
         this.empDepartment = empDepartment;
+    }
+
+    public Designation getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(Designation designation) {
+        this.designation = designation;
     }
 }

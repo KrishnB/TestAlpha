@@ -1,6 +1,5 @@
-import core.Company;
-import core.Employee;
-import core.Laptop;
+import core.*;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.LaptopFactory;
 
@@ -13,15 +12,23 @@ import static org.testng.AssertJUnit.assertEquals;
  */
 public class EmployeeTest
 {
+
+    Company testVagrant;
+    Employee karthik,vinay,employee3,employee4,employee5;
+    Department department1,department2;
+    Laptop dell,mac;
+
+    @BeforeTest
+    public void setup() {
+        testVagrant = new Company("TestVagrant","IndiraNagar,Bangalore");
+        karthik = new Employee("1","Karthik",Designation.SDET);
+        vinay = new Employee("2","Vinay",Designation.QA);
+    }
+
+
     @Test
     public void shouldCreateEmployee()
     {
-        //Creating Company Class Object
-        Company testVagrant = new Company("TestVagrant","IndiraNagar,Bangalore");
-
-        //Creating The Employee object
-        Employee karthik = new Employee("1","Karthik","SDET");
-        Employee vinay = new Employee("2","Vinay","SDET");
 
         //Adding the employee in to list
         testVagrant.addEmployee(karthik);
@@ -36,11 +43,11 @@ public class EmployeeTest
         //Testing the Employee Details
         assertEquals(karthik.getEmpId(), "1");
         assertEquals(karthik.getEmpName(), "Karthik");
-        assertEquals(karthik.getEmpDesignation(), "SDET");
+        assertEquals(karthik.getDesignation(), Designation.SDET);
 
         assertEquals(vinay.getEmpId(), "2");
         assertEquals(vinay.getEmpName(), "Vinay");
-        assertEquals(vinay.getEmpDesignation(), "SDET");
+        assertEquals(vinay.getDesignation(), Designation.QA);
 
         //Find the number of employees present in the company
         LaptopFactory factory = new LaptopFactory(3);
@@ -49,6 +56,12 @@ public class EmployeeTest
         testVagrant.issueLaptop(karthik,laptops.get(0));
         testVagrant.issueLaptop(vinay,laptops.get(1));
 
+
+    }
+
+
+    @Test
+    public void DesignationTest() {
 
     }
 
