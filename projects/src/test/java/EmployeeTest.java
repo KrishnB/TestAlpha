@@ -1,3 +1,4 @@
+import core.Employee;
 import org.testng.annotations.Test;
 
 /**
@@ -8,7 +9,7 @@ public class EmployeeTest
     @Test
     public void shouldCreateEmployee()
     {
-
+        Employee karthik = new Employee("1","karthik","SDET");
     }
 
 }
