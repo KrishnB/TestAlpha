@@ -1,12 +1,11 @@
 package core;
 
-/**
- * Created by tvserver on 19/10/16.
- */
+
 public class Department {
 
     String depId;
     String depName;
+    Employee employee;
 
     public Department(String id, String name)
     {
@@ -29,4 +28,7 @@ public class Department {
     public void setDepName(String depName) {
         this.depName = depName;
     }
+
+
+
 }

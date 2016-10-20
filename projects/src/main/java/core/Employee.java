@@ -1,26 +1,24 @@
 package core;
 
-/**
- * Created by tvserver on 19/10/16.
- */
+import java.util.List;
+
+
 public class Employee {
 
     String empId;
     String empName;
-    String empDesignation;
-    Department department;
-    Laptop laptop;
+    Department empDepartment;
+    Laptop empLaptop;
+    Designation designation;
 
-    public Employee(String id,String name, String desig)
+    public Employee(String id,String name, Designation desig)
     {
         this.empId = id;
         this.empName = name;
-        this.empDesignation = desig;
+        this.designation = desig;
     }
 
-    public String getEmpId() {
-        return empId;
-    }
+    public String getEmpId() { return empId; }
 
     public void setEmpId(String empId) {
         this.empId = empId;
@@ -34,12 +32,35 @@ public class Employee {
         this.empName = empName;
     }
 
-    public String getEmpDesignation() {
-        return empDesignation;
+    public Laptop getEmpLaptop()
+    {
+        return empLaptop;
     }
 
-    public void setEmpDesignation(String empDesignation) {
-        this.empDesignation = empDesignation;
+    public void setEmpLaptop(Laptop empLaptop)
+    {
+        this.empLaptop = empLaptop;
     }
 
+    public Department getEmpDepartment() {
+        return empDepartment;
+    }
+
+    public void setEmpDepartment(Department empDepartment) {
+        this.empDepartment = empDepartment;
+    }
+
+    public Designation getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(Designation designation) {
+        this.designation = designation;
+    }
+
+    public String getEmployeeDetails(Employee employee)
+    {
+        String details = "Employee Id: "+employee.empId + "\n" +"Employee Name: "+employee.empName+ "\n"+"Employee Department: "+ employee.getEmpDepartment()+ "\n"+"Employee Designation: " + employee.getDesignation();
+        return details;
+     }
 }
