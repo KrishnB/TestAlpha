@@ -1,34 +1,10 @@
 package core;
 
-
-public class Department {
-
-    String depId;
-    String depName;
-    Employee employee;
-
-    public Department(String id, String name)
-    {
-        this.depId = id;
-        this.depName = name;
-    }
-
-    public String getDepId() {
-        return depId;
-    }
-
-    public void setDepId(String depId) {
-        this.depId = depId;
-    }
-
-    public String getDepName() {
-        return depName;
-    }
-
-    public void setDepName(String depName) {
-        this.depName = depName;
-    }
-
-
-
+/**
+ * Created by vinaykumar on 20/10/16.
+ */
+public enum Department{
+    IT,
+    Network,
+    Hr
 }

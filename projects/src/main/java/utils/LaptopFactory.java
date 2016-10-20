@@ -1,11 +1,10 @@
 package utils;
 
-
+import core.Department;
 import core.Laptop;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class LaptopFactory
 {
@@ -14,21 +13,18 @@ public class LaptopFactory
         this.numberOfEmployees = numberOfEmployees;
     }
 
-//    public LaptopFactory(int numberOfEmployees, LaptopType laptopType) {
-//        this.numberOfEmployees = numberOfEmployees;
-//    }
-
-
-    public List<Laptop> getLaptops() {
-        List<Laptop> laptops = new ArrayList<Laptop>();
+    public List<Laptop> getITLaptops() {
+        List<Laptop> ITLaptops = new ArrayList<Laptop>();
         for(int i = 0; i<numberOfEmployees; i++) {
-            laptops.add(getBasicLaptop());
+            ITLaptops.add(issueITLaptop());
         }
-        return laptops;
+        return ITLaptops;
     }
 
-    private Laptop getBasicLaptop() {
-        Laptop laptop = new Laptop("Lenevo");
-        return laptop;
+    private Laptop issueITLaptop() {
+        Laptop dell = new Laptop("Dell");
+        return dell;
     }
+
+    //public abstract Laptop getLaptopForDepartment(Department department);
 }

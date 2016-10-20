@@ -1,6 +1,5 @@
 package core;
 
-import java.util.List;
 
 
 public class Employee {
@@ -11,11 +10,12 @@ public class Employee {
     Laptop empLaptop;
     Designation designation;
 
-    public Employee(String id,String name, Designation desig)
+    public Employee(String id,String name, Designation desig, Department depart)
     {
         this.empId = id;
         this.empName = name;
         this.designation = desig;
+        this.empDepartment = depart;
     }
 
     public String getEmpId() { return empId; }
