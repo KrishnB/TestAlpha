@@ -1,5 +1,6 @@
 package core;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,18 +43,29 @@ public class Company {
     public void addEmployee(Employee employee)
     {
 
+        employeeList.add(employee);
+
     }
 
     public void displayEmployee(Employee employee)
     {
-
+        System.out.println(employee.getEmployeeDetails(employee));
     }
     public void displayAllEmployees()
     {
-
+        for (Employee employee : employeeList) {
+            System.out.println(employee.getEmpName());
+        }
     }
     public void issueLaptop(Employee employee,Laptop laptop)
     {
+        if((employee.getEmpDepartment())== Department.IT)
+                    employee.setEmpLaptop(laptop);
 
+    }
+
+    public void showEmpLaptop(Employee employee)
+    {
+        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getLaptopName());
     }
 }
