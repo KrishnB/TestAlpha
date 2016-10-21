@@ -1,6 +1,5 @@
 package utils;
 
-import core.Department;
 import core.Laptop;
 
 import java.util.ArrayList;

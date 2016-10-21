@@ -16,6 +16,7 @@ public class EmployeeTest
     @BeforeTest
     public void setup() {
         testVagrant = new Company("TestVagrant","IndiraNagar,Bangalore");
+
         karthik = new Employee("1","Karthik",Designation.SDET,Department.IT);
         vinay = new Employee("2","Vinay",Designation.QA,Department.IT);
     }
@@ -58,9 +59,6 @@ public class EmployeeTest
         testVagrant.issueLaptop(vinay,ITLaptops.get(1));
 
         testVagrant.showEmpLaptop(karthik);
-
-
-
     }
 
 }
