@@ -57,15 +57,28 @@ public class Company {
             System.out.println(employee.getEmpName());
         }
     }
+//Company Will issue the Laptop Depending upon the Department
     public void issueLaptop(Employee employee,Laptop laptop)
     {
         if((employee.getEmpDepartment())== Department.IT)
                     employee.setEmpLaptop(laptop);
 
     }
-
+//Company need to show the Employee Laptop
     public void showEmpLaptop(Employee employee)
     {
 //        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getLaptopName());
     }
+
+//Company need to find the number of individual Laptops issued to the employees
+//    public void FindLaptops(Laptop laptop){
+//        int count;
+//        for(Employee employee : employeeList){
+//
+//            if(employee.getEmpLaptop().dell== laptop){}
+//
+//
+//       }
+//    }
 }
+

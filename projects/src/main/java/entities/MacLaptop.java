@@ -3,17 +3,17 @@ package entities;
 import core.Department;
 import core.Laptop;
 
+/**
+ * Created by vinaykumar on 21/10/16.
+ */
+public class MacLaptop implements Laptop{
 
-public class DellLaptop implements Laptop {
     private String name;
     private String os;
     private Department department;
     private String processor;
 
-    public DellLaptop(){}
-    Laptop dell = new DellLaptop();
-
-    public DellLaptop(Department department) {
+    public MacLaptop(Department department) {
         this.department = department;
     }
 
@@ -48,7 +48,6 @@ public class DellLaptop implements Laptop {
     public void setProcessor(String processor) {
         this.processor = processor;
     }
-
 
     public void bootUp(){
         System.out.println("Here The boot up Process Is done");
