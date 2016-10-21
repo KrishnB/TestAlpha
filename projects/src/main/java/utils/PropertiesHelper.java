@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -15,8 +16,9 @@ public class PropertiesHelper {
         try {
             File file = new File(String.format(userDirectory+"/src/test/resources/%s.properties",propertyFileName));
             System.out.println(file.getPath());
-            InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("/home/karthik/Development/TestAlpha/projects/src/main/java/testdata/Test.txt");
-            properties.load(inputStream);
+//            InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("/home/karthik/Development/TestAlpha/projects/src/main/java/testdata/Test.txt");
+            InputStream inputStream1 = new FileInputStream(file);
+            properties.load(inputStream1);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -24,6 +26,15 @@ public class PropertiesHelper {
 
     public String getName() {
         return properties.getProperty("name");
+    }
+
+    public String getOS() {
+        return properties.getProperty("os");
+    }
+
+
+    public String getProcessor() {
+        return properties.getProperty("processor");
     }
 
 }
