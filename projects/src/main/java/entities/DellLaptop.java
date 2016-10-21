@@ -1,54 +1,34 @@
 package entities;
 
-import core.Department;
-import core.Laptop;
+import utils.PropertiesReader;
+
+import java.util.List;
 
 
-public class DellLaptop implements Laptop {
+public class DellLaptop extends Laptop {
     private String name;
     private String os;
-    private Department department;
     private String processor;
+    private int laptopCount;
 
-    public DellLaptop(){}
-    Laptop dell = new DellLaptop();
-
-    public DellLaptop(Department department) {
-        this.department = department;
+    public DellLaptop(int laptopCount) {
+        this.laptopCount = laptopCount;
     }
+
 
     public String getName() {
-        return name;
+        return PropertiesReader.name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getOs() {
-        return os;
+        return PropertiesReader.os;
     }
 
-    public void setOs(String os) {
-        this.os = os;
-    }
-
-    public Department getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
 
     public String getProcessor() {
-        return processor;
+        return PropertiesReader.processor;
     }
-
-    public void setProcessor(String processor) {
-        this.processor = processor;
-    }
-
 
     public void bootUp(){
         System.out.println("Here The boot up Process Is done");
@@ -58,5 +38,8 @@ public class DellLaptop implements Laptop {
     }
     public void executeCommand(){
         System.out.println("Please Provide a Command to Execute and Run");
+    }
+    public List<Laptop> deliverLaptops() {
+        return getLaptops(this,laptopCount);
     }
 }

@@ -1,6 +1,8 @@
 package core;
 
 
+import entities.Laptop;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,14 +73,17 @@ public class Company {
     }
 
 //Company need to find the number of individual Laptops issued to the employees
-//    public void FindLaptops(Laptop laptop){
-//        int count;
-//        for(Employee employee : employeeList){
-//
-//            if(employee.getEmpLaptop().dell== laptop){}
-//
-//
-//       }
-//    }
+    public void FindLaptops(Laptop laptop){
+        int count=0;
+        for(Employee employee : employeeList){
+
+            if(employee.getEmpLaptop().getName().equals(laptop))
+            {
+                count++;
+            }
+            System.out.println(employee.getEmpLaptop().getName()+" has" +count);
+
+       }
+    }
 }
 

@@ -1,6 +1,7 @@
 package core;
 
 
+import entities.Laptop;
 
 public class Employee {
 

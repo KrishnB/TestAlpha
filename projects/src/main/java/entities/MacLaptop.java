@@ -1,12 +1,13 @@
 package entities;
 
 import core.Department;
-import core.Laptop;
+
+import java.util.List;
 
 /**
  * Created by vinaykumar on 21/10/16.
  */
-public class MacLaptop implements Laptop{
+public class MacLaptop extends Laptop{
 
     private String name;
     private String os;
@@ -57,5 +58,9 @@ public class MacLaptop implements Laptop{
     }
     public void executeCommand(){
         System.out.println("Please Provide a Command to Execute and Run");
+    }
+
+    public List<Laptop> deliverLaptops() {
+        return null;
     }
 }

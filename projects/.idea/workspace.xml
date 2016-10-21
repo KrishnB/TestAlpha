@@ -2,21 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28595f20-4866-40ab-bf83-53b1c7c3c657" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/testdata/Test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Lenevo.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Dell.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PropertiesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/DellLaptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code_TestAlpha.iml" afterPath="$PROJECT_DIR$/Code_TestAlpha.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Laptop.class" afterPath="$PROJECT_DIR$/target/classes/core/Laptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" afterPath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/Laptop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/LenovoLaptop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entities/MacLaptop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/utils/LaptopFactory$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/LaptopFactoryTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/Laptop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/LaptopFactoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Mac.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/core/Laptop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/core/Laptop.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Company.class" afterPath="$PROJECT_DIR$/target/classes/core/Company.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Company.java" afterPath="$PROJECT_DIR$/src/main/java/core/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Department.class" afterPath="$PROJECT_DIR$/target/classes/core/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Employee.class" afterPath="$PROJECT_DIR$/target/classes/core/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/DellLaptop.class" afterPath="$PROJECT_DIR$/target/classes/entities/DellLaptop.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/LaptopFactory.class" afterPath="$PROJECT_DIR$/target/classes/utils/LaptopFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Laptop.java" afterPath="$PROJECT_DIR$/src/main/java/core/Laptop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesHelper.class" afterPath="$PROJECT_DIR$/target/classes/utils/PropertiesHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" afterPath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PropertiesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/PropertiesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Company.java" afterPath="$PROJECT_DIR$/src/main/java/core/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/core/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/DellLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/DellLaptop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/LenovoLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/LenovoLaptop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/MacLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/MacLaptop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" afterPath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/PropertiesHelper.java" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PropertiesTest.java" afterPath="$PROJECT_DIR$/src/test/java/PropertiesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Dell.properties" afterPath="$PROJECT_DIR$/src/test/resources/Dell.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Dell.properties" afterPath="$PROJECT_DIR$/target/test-classes/Dell.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Lenevo.properties" afterPath="$PROJECT_DIR$/target/test-classes/Lenevo.properties" />
     </list>
     <ignored path="Code_TestAlpha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +73,8 @@
       <file leaf-file-name="DellLaptop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entities/DellLaptop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,9 +171,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -842,6 +860,7 @@
       <workItem from="1476955804449" duration="8435000" />
       <workItem from="1477040186132" duration="2792000" />
       <workItem from="1477053515181" duration="3000" />
+      <workItem from="1477053755368" duration="23000" />
     </task>
     <servers />
   </component>
@@ -878,11 +897,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11230000" />
+    <option name="totallyTimeSpent" value="11253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1315" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -890,18 +909,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.50269026" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17436662" sideWeight="0.49730977" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -964,6 +983,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/DellLaptop.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/DellLaptop.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
@@ -990,13 +1029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Laptop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Laptop.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1011,9 +1044,7 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1034,21 +1065,7 @@
           <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
             <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#776#777#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1099,21 +1116,7 @@
           <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
             <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#776#777#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1124,9 +1127,7 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1177,11 +1178,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
             <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
             <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1193,22 +1191,13 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
             <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
             <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/Laptop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/Laptop.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -1234,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/DellLaptop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
