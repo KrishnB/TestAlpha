@@ -1,32 +1,9 @@
 package core;
 
 
-public class Laptop {
+public interface Laptop {
 
-    String  laptopName;
-
-    public  Laptop(String lap)
-    {
-        this.laptopName = lap;
-    }
-
-    public String getLaptopName() {
-        return laptopName;
-    }
-
-    public void setLaptopName(String laptopName) {
-        this.laptopName = laptopName;
-    }
-    public void bootUp()
-    {
-        System.out.println("welcome to bootup");
-    }
-    public void shutDown()
-    {
-        System.out.println("Goes to shutdown");
-    }
-    public void executeCommand()
-    {
-        System.out.println("Executed command");
-    }
+//    public void bootUp();
+//    public void shutDown();
+//    public void executeCommand();
 }

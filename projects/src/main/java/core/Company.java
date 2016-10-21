@@ -66,6 +66,6 @@ public class Company {
 
     public void showEmpLaptop(Employee employee)
     {
-        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getLaptopName());
+//        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getLaptopName());
     }
 }
