@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28595f20-4866-40ab-bf83-53b1c7c3c657" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/builders/LaptopBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/Company.class" afterPath="$PROJECT_DIR$/target/classes/core/Company.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/DellLaptop.class" afterPath="$PROJECT_DIR$/target/classes/entities/DellLaptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Laptop.class" afterPath="$PROJECT_DIR$/target/classes/entities/Laptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/LenovoLaptop.class" afterPath="$PROJECT_DIR$/target/classes/entities/LenovoLaptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/MacLaptop.class" afterPath="$PROJECT_DIR$/target/classes/entities/MacLaptop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/LaptopFactory.class" afterPath="$PROJECT_DIR$/target/classes/utils/LaptopFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesHelper.class" afterPath="$PROJECT_DIR$/target/classes/utils/PropertiesHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/LaptopFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/LaptopFactoryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/Company.java" afterPath="$PROJECT_DIR$/src/main/java/core/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/DellLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/DellLaptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Laptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Laptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/LenovoLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/LenovoLaptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/MacLaptop.java" afterPath="$PROJECT_DIR$/src/main/java/entities/MacLaptop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" afterPath="$PROJECT_DIR$/src/main/java/utils/LaptopFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/PropertiesHelper.java" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertiesHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LaptopFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/LaptopFactoryTest.java" />
-    </list>
+    <list default="true" id="28595f20-4866-40ab-bf83-53b1c7c3c657" name="Default" comment="" />
     <ignored path="Code_TestAlpha.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1015,7 +996,7 @@
       <workItem from="1477236761345" duration="606000" />
       <workItem from="1477280195489" duration="1160000" />
       <workItem from="1477283120095" duration="1253000" />
-      <workItem from="1477285908374" duration="6455000" />
+      <workItem from="1477285908374" duration="7058000" />
     </task>
     <servers />
   </component>
@@ -1052,7 +1033,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21203000" />
+    <option name="totallyTimeSpent" value="21806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1315" height="744" extended-state="6" />
@@ -1060,7 +1041,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09865471" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.50269026" order="7" side_tool="true" content_ui="tabs" />
@@ -1075,7 +1056,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49730977" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49730977" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
