@@ -1,6 +1,6 @@
 package entities;
 
-import core.Department;
+import utils.PropertiesHelper;
 
 import java.util.List;
 
@@ -11,11 +11,12 @@ public class MacLaptop extends Laptop{
 
     private String name;
     private String os;
-    private Department department;
     private String processor;
+    private int laptopCount;
+    private PropertiesHelper propertiesHelper = new PropertiesHelper("Mac");
 
-    public MacLaptop(Department department) {
-        this.department = department;
+    public MacLaptop(int laptopCount) {
+        this.laptopCount = laptopCount;
     }
 
     public String getName() {
@@ -26,21 +27,25 @@ public class MacLaptop extends Laptop{
         this.name = name;
     }
 
+    public void setName() {
+        this.name = propertiesHelper.getName();
+    }
+
+
     public String getOs() {
         return os;
     }
 
     public void setOs(String os) {
         this.os = os;
+
     }
 
-    public Department getDepartment() {
-        return department;
+    public void setOs() {
+        this.os = propertiesHelper.getOS();
+
     }
 
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
 
     public String getProcessor() {
         return processor;
@@ -48,6 +53,10 @@ public class MacLaptop extends Laptop{
 
     public void setProcessor(String processor) {
         this.processor = processor;
+    }
+
+    public void setProcessor() {
+        this.processor = propertiesHelper.getProcessor();
     }
 
     public void bootUp(){
@@ -59,8 +68,8 @@ public class MacLaptop extends Laptop{
     public void executeCommand(){
         System.out.println("Please Provide a Command to Execute and Run");
     }
-
-    public List<Laptop> deliverLaptops() {
-        return null;
+    public List<Laptop> deliverLaptops()
+    {
+        return getLaptops(this,laptopCount);
     }
 }

@@ -1,6 +1,6 @@
 package entities;
 
-import core.Department;
+import utils.PropertiesHelper;
 
 import java.util.List;
 
@@ -10,11 +10,12 @@ import java.util.List;
 public class LenovoLaptop extends Laptop {
     private String name;
     private String os;
-    private Department department;
     private String processor;
+    private int laptopCount;
+    private PropertiesHelper propertiesHelper = new PropertiesHelper("Lenevo");
 
-    public LenovoLaptop(Department department) {
-        this.department = department;
+    public LenovoLaptop(int laptopCount) {
+        this.laptopCount = laptopCount;
     }
 
     public String getName() {
@@ -25,21 +26,25 @@ public class LenovoLaptop extends Laptop {
         this.name = name;
     }
 
+    public void setName() {
+        this.name = propertiesHelper.getName();
+    }
+
+
     public String getOs() {
         return os;
     }
 
     public void setOs(String os) {
         this.os = os;
+
     }
 
-    public Department getDepartment() {
-        return department;
+    public void setOs() {
+        this.os = propertiesHelper.getOS();
+
     }
 
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
 
     public String getProcessor() {
         return processor;
@@ -49,17 +54,23 @@ public class LenovoLaptop extends Laptop {
         this.processor = processor;
     }
 
-    public void bootUp(){
+    public void setProcessor() {
+        this.processor = propertiesHelper.getProcessor();
+    }
+
+    public void bootUp() {
         System.out.println("Here The boot up Process Is done");
     }
-    public void shutDown(){
+
+    public void shutDown() {
         System.out.println("System is going to ShutDown.....Bye!!");
     }
-    public void executeCommand(){
+
+    public void executeCommand() {
         System.out.println("Please Provide a Command to Execute and Run");
     }
 
     public List<Laptop> deliverLaptops() {
-        return null;
+        return getLaptops(this, laptopCount);
     }
 }

@@ -7,6 +7,14 @@ import java.util.List;
 public abstract class Laptop {
 
     abstract public String getName();
+    abstract public void setName();
+    abstract public void setName(String name);
+    abstract public String getOs();
+    abstract public void setOs();
+    abstract public void setOs(String os);
+    abstract public String getProcessor();
+    abstract public void setProcessor();
+    abstract public void setProcessor(String processor);
     abstract public void bootUp();
     abstract public void shutDown();
     abstract public void executeCommand();

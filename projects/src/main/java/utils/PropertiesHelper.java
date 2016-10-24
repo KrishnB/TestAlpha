@@ -12,11 +12,11 @@ public class PropertiesHelper {
     Properties properties = new Properties();
 
     public PropertiesHelper(String propertyFileName) {
+        System.out.println(propertyFileName);
         String userDirectory = System.getProperty("user.dir");
         try {
             File file = new File(String.format(userDirectory+"/src/test/resources/%s.properties",propertyFileName));
             System.out.println(file.getPath());
-//            InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("/home/karthik/Development/TestAlpha/projects/src/main/java/testdata/Test.txt");
             InputStream inputStream1 = new FileInputStream(file);
             properties.load(inputStream1);
         } catch (IOException e) {
@@ -31,7 +31,6 @@ public class PropertiesHelper {
     public String getOS() {
         return properties.getProperty("os");
     }
-
 
     public String getProcessor() {
         return properties.getProperty("processor");

@@ -1,6 +1,6 @@
 package entities;
 
-import utils.PropertiesReader;
+import utils.PropertiesHelper;
 
 import java.util.List;
 
@@ -10,6 +10,7 @@ public class DellLaptop extends Laptop {
     private String os;
     private String processor;
     private int laptopCount;
+    private PropertiesHelper propertiesHelper = new PropertiesHelper("Dell");
 
     public DellLaptop(int laptopCount) {
         this.laptopCount = laptopCount;
@@ -17,17 +18,43 @@ public class DellLaptop extends Laptop {
 
 
     public String getName() {
-        return PropertiesReader.name;
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setName() {
+        this.name = propertiesHelper.getName();
     }
 
 
     public String getOs() {
-        return PropertiesReader.os;
+        return os;
+    }
+
+    public void setOs(String os) {
+        this.os = os;
+
+    }
+
+    public void setOs() {
+        this.os = propertiesHelper.getOS();
+
     }
 
 
     public String getProcessor() {
-        return PropertiesReader.processor;
+        return processor;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    public void setProcessor() {
+        this.processor = propertiesHelper.getProcessor();
     }
 
     public void bootUp(){
@@ -39,7 +66,8 @@ public class DellLaptop extends Laptop {
     public void executeCommand(){
         System.out.println("Please Provide a Command to Execute and Run");
     }
-    public List<Laptop> deliverLaptops() {
+    public List<Laptop> deliverLaptops()
+    {
         return getLaptops(this,laptopCount);
     }
 }
