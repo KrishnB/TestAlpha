@@ -1,6 +1,8 @@
 package core;
 
 
+import entities.Laptop;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,15 +59,34 @@ public class Company {
             System.out.println(employee.getEmpName());
         }
     }
+//Company Will issue the Laptop Depending upon the Department
     public void issueLaptop(Employee employee,Laptop laptop)
     {
-        if((employee.getEmpDepartment())== Department.IT)
-                    employee.setEmpLaptop(laptop);
 
+        try {
+            employee.setEmpLaptop(laptop.deliverLaptops().get(0));
+        } catch (Exception e) {
+
+        }
     }
-
+    //Company need to show the Employee Laptop
     public void showEmpLaptop(Employee employee)
     {
-//        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getLaptopName());
+        System.out.println(employee.getEmpName() + " belonging to "+employee.getEmpDepartment()+" has a " + employee.getEmpLaptop().getName());
     }
+
+//Company need to find the number of individual Laptops issued to the employees
+//    public void FindLaptops(Laptop laptop){
+//        int count=0;
+//        for(Employee employee : employeeList){
+//
+//            if(employee.getEmpLaptop().getName().equals(laptop))
+//            {
+//                count++;
+//            }
+//            System.out.println(employee.getEmpLaptop().getName()+" has" +count);
+//
+//       }
+//    }
 }
+

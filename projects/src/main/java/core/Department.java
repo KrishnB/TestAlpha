@@ -6,5 +6,5 @@ package core;
 public enum Department{
     IT,
     Network,
-    Hr
+    Testing
 }

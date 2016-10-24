@@ -4,18 +4,20 @@ import utils.PropertiesHelper;
 
 import java.util.List;
 
+/**
+ * Created by vinaykumar on 21/10/16.
+ */
+public class MacLaptop extends Laptop{
 
-public class DellLaptop extends Laptop {
     private String name;
     private String os;
     private String processor;
     private int laptopCount;
-    private PropertiesHelper propertiesHelper = new PropertiesHelper("Dell");
+    private PropertiesHelper propertiesHelper = new PropertiesHelper("Mac");
 
-    public DellLaptop(int laptopCount) {
+    public MacLaptop(int laptopCount) {
         this.laptopCount = laptopCount;
     }
-
 
     public String getName() {
         return name;

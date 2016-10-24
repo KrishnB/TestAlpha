@@ -1,9 +1,9 @@
-import core.*;
+import core.Company;
+import core.Department;
+import core.Designation;
+import core.Employee;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import utils.LaptopFactory;
-
-import java.util.List;
 
 import static org.testng.AssertJUnit.assertEquals;
 
@@ -16,8 +16,9 @@ public class EmployeeTest
     @BeforeTest
     public void setup() {
         testVagrant = new Company("TestVagrant","IndiraNagar,Bangalore");
+
         karthik = new Employee("1","Karthik",Designation.SDET,Department.IT);
-        vinay = new Employee("2","Vinay",Designation.QA,Department.IT);
+        vinay = new Employee("2","Vinay",Designation.QA,Department.Testing);
     }
 
 
@@ -51,16 +52,13 @@ public class EmployeeTest
     public void IssueLaptopToEmployee() {
 
         //Find the number of employees present in the company
-        LaptopFactory factory = new LaptopFactory(2);
-        List<Laptop> ITLaptops = factory.getITLaptops();
-
-        testVagrant.issueLaptop(karthik,ITLaptops.get(0));
-        testVagrant.issueLaptop(vinay,ITLaptops.get(1));
-
-        testVagrant.showEmpLaptop(karthik);
-
-
-
+//        LaptopFactory factory = new LaptopFactory(2);
+//        List<Laptop> ITLaptops = factory.getITLaptops();
+//
+//       testVagrant.issueLaptop(karthik,ITLaptops.get(0));
+//       testVagrant.issueLaptop(vinay,ITLaptops.get(1));
+//
+//        testVagrant.showEmpLaptop(karthik);
     }
 
 }

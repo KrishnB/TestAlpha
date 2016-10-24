@@ -4,18 +4,19 @@ import utils.PropertiesHelper;
 
 import java.util.List;
 
-
-public class DellLaptop extends Laptop {
+/**
+ * Created by vinaykumar on 21/10/16.
+ */
+public class LenovoLaptop extends Laptop {
     private String name;
     private String os;
     private String processor;
     private int laptopCount;
-    private PropertiesHelper propertiesHelper = new PropertiesHelper("Dell");
+    private PropertiesHelper propertiesHelper = new PropertiesHelper("Lenevo");
 
-    public DellLaptop(int laptopCount) {
+    public LenovoLaptop(int laptopCount) {
         this.laptopCount = laptopCount;
     }
-
 
     public String getName() {
         return name;
@@ -57,17 +58,19 @@ public class DellLaptop extends Laptop {
         this.processor = propertiesHelper.getProcessor();
     }
 
-    public void bootUp(){
+    public void bootUp() {
         System.out.println("Here The boot up Process Is done");
     }
-    public void shutDown(){
+
+    public void shutDown() {
         System.out.println("System is going to ShutDown.....Bye!!");
     }
-    public void executeCommand(){
+
+    public void executeCommand() {
         System.out.println("Please Provide a Command to Execute and Run");
     }
-    public List<Laptop> deliverLaptops()
-    {
-        return getLaptops(this,laptopCount);
+
+    public List<Laptop> deliverLaptops() {
+        return getLaptops(this, laptopCount);
     }
 }
