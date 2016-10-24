@@ -73,4 +73,12 @@ public class LenovoLaptop extends Laptop {
     public List<Laptop> deliverLaptops() {
         return getLaptops(this, laptopCount);
     }
+
+    public void trackLaptops() {
+
+    }
+
+    public void trackChangeConfig() {
+
+    }
 }

@@ -72,4 +72,12 @@ public class MacLaptop extends Laptop{
     {
         return getLaptops(this,laptopCount);
     }
+
+    public void trackLaptops() {
+        
+    }
+
+    public void trackChangeConfig() {
+
+    }
 }

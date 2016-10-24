@@ -20,6 +20,9 @@ public abstract class Laptop {
     abstract public void executeCommand();
     abstract public List<Laptop> deliverLaptops();
 
+    abstract public void trackLaptops();
+    abstract public void trackChangeConfig();
+
     protected List<Laptop> getLaptops(Laptop laptop, int NumberOfLaptops) {
         List<Laptop> allLaptops = new ArrayList<Laptop>();
         for(int i=0; i< NumberOfLaptops; i++) {
