@@ -73,9 +73,11 @@ public class DellLaptop extends Laptop {
 
     public void trackLaptops() {
 
+
     }
 
     public void trackChangeConfig() {
+
 
     }
 }
