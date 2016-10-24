@@ -88,5 +88,17 @@ public class Company {
 //
 //       }
 //    }
+    public void removeAnEmployee(Employee employee){
+        try{
+            for (Employee employee1 : employeeList){
+                if(employee1.equals(employee))
+                {
+                    employeeList.remove(employee);
+                }
+            }
+        }catch(Exception e){
+            System.out.println("Employee not found");
+        }
+    }
 }
 
